@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="script.css" type="text/css"/>
+    <title>Document</title>
+</head>
+<body>
+  <nav>
+    <h2>
+      <span class="login_button">Login</span>|
+      <span>Registr</span>|
+      <span id="filters_nav" class="button" >filters </span>
+    </h2>
+  </nav>
+
+      <div id="conteiner">
+        <h2> Search in data </h2>
+        <input id="idinput" placeholder="Search_Name..." />
+        <button id="text_button"> filter </button>
+      </div>
+      <div id="filter_answer">
+          
+      </div>
+
+      <div id="filters">
+        <h2> filters </h2>
+        <p> Country</p>
+        <select name="" id="country-filter">
+           <option value="">---------</option>
+           <option value="Armenia">Armenia</option>
+           <option value="USA">USA</option>
+           <option value="Rasha"> Rasha</option>
+        </select>
+
+        <p>Gender</p>
+        <select name="" id="gender-filter">
+          <option value="">---------</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+  
+        <br>
+        <br>
+        <button  id="update_button">
+           Update
+        </button>
+      </div>
+<!-- //////////////////////////////////// longin ////////////////////////////////////// -->
+      <div id="login-box_ener">
+        <h2>Login  <span class="long_btn_span  login_button">x</span> </h2>
+        <p>Email</p>
+        <input type="text" id="idemail"><span id="email_atribut"></span>
+        <p>Password</p>
+        <input type="text" >
+        <br>  
+        <br>
+        <button> Login </button>
+      </div>
+
+    <script src="script.js" ></script>
+</body>
+</html>
